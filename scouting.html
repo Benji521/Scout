@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" href="scouting.css">
+		<script src="scouting.js"></script>
+		<title>Paper Football Scouting System</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+	</head>
+	<body>
+	  <br>
+	 	<h1 class="title">Paper Football Scouting System</h1>
+	 	<br>
+	 	<br>
+	 	<br>
+		<form>
+		  <p>Name</p>
+			<input type="text" placeholder="Name" id="0">
+		  <br>
+		  <p>Touchdowns</p>
+			<input type="text" placeholder="Made" id="1">
+			<input type="text" placeholder="Attempted" id="2">
+			<br>
+			<p>Field Goals</p>
+			<input type="text" placeholder="Made" id="3">
+			<input type="text" placeholder="Attempted" id="4">
+			<br>
+			<p>Extra Points</p>
+			<input type="text" placeholder="Made" id="5">
+			<input type="text" placeholder="Attempted" id="6">
+			<br>
+			<br>
+			<button type="button" onClick="submitForm()">Submit</button>
+			
+		</form>
+		<img src="Capture.png">
+		<br>
+		<br>
+		<div class="output">
+  		<p id="name">Profile:</p>
+  		<p id="tdaccuracy">Touchdown Accuracy:</p>
+  		<p id="fgaccuracy">Field Goal Accuracy:</p>
+  		<p id="epaccuracy">Extra Point Accuracy:</p>
+  		<p id="overall">Overall Performance:</p>
+	  </div>
+	</body>
+</html>
